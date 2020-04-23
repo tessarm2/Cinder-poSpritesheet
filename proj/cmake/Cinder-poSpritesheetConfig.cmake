@@ -17,7 +17,7 @@ if(NOT TARGET Cinder-poSpritesheet)
     # Add include directories.
     # Notice that `cinderblock.xml` has `<includePath>src</includePath>`.
     # So you need to set `../../src/` to include.
-    target_include_directories(Cinder-poSpritesheet PUBLIC "${Cinder-Notifications_PROJECT_ROOT}/src" )
+    target_include_directories(Cinder-poSpritesheet PUBLIC "${Cinder-poSpritesheet_PROJECT_ROOT}/src/poSpritesheet" )
     target_include_directories(Cinder-poSpritesheet SYSTEM BEFORE PUBLIC "${CINDER_PATH}/include" )
 
 
